@@ -6,6 +6,7 @@ namespace Bubble
     public class Bubble : MonoBehaviour
     {
         public float speed;
+        public float upwardsSpeed;
     
         private Rigidbody2D rb;
 
@@ -13,6 +14,19 @@ namespace Bubble
     
         private void Start()
         {
+            switch (Global.Difficulty)
+            {
+                case "Easy":
+                    upwardsSpeed = 2;
+                    break;
+                case "Medium":
+                    upwardsSpeed = 3;
+                    break;
+                default:
+                    upwardsSpeed = 4;
+                    break;
+            }
+            
             rb = GetComponent<Rigidbody2D>();
             StartCoroutine(ChangeDirection());
         }
@@ -28,7 +42,7 @@ namespace Bubble
         private void Update()
         {
             var position = transform.position;
-            rb.MovePosition(direction == 0 ? position + (Vector3.up + Vector3.left) * Time.deltaTime * speed : position + (Vector3.up + Vector3.right) * Time.deltaTime * speed);
+            rb.MovePosition(direction == 0 ? position + (Vector3.up * upwardsSpeed + Vector3.left * speed) * Time.deltaTime : position + (Vector3.up * upwardsSpeed + Vector3.right * speed) * Time.deltaTime * speed);
         }
     }
 }

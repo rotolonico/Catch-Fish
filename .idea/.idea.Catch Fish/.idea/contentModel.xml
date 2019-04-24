@@ -53,6 +53,7 @@
             <e p="DatabaseHandler.cs" t="Include" />
             <e p="DoNotDestroyOnLoad.cs" t="Include" />
             <e p="ScoreButtonHandler.cs" t="Include" />
+            <e p="Scores.cs" t="Include" />
             <e p="SoundHandler.cs" t="Include" />
           </e>
         </e>

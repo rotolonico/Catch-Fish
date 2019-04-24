@@ -11,16 +11,16 @@ namespace Utilities
     {
         
         public delegate void PostScoresCallback();
-        public delegate void GetScoresCallback(Dictionary<string, string> scores);
+        public delegate void GetScoresCallback(Scores scores);
         public delegate void GetScoresFallback();
         
         private static readonly string DatabaseUrl = "https://guess-my-phrase.firebaseio.com/";
 
         private static readonly fsSerializer serializer = new fsSerializer();
         
-        public static void PostScore(string name, int score, PostScoresCallback callback)
+        public static void PostScore(string name, int score, string difficulty, PostScoresCallback callback)
         {
-            RestClient.Get(DatabaseUrl + name + ".json").Then(value =>
+            RestClient.Get(DatabaseUrl + difficulty + "/" + name + ".json").Then(value =>
             {
                 if (value.Text != "null" && int.Parse(value.Text.Trim('"')) >= score)
                 {
@@ -28,7 +28,7 @@ namespace Utilities
                     return;
                 }
                 var payLoad = "\"" + score + "\"";
-                RestClient.Put(DatabaseUrl + name + ".json", payLoad).Then(newValue => { callback(); }).Catch(
+                RestClient.Put(DatabaseUrl + difficulty + "/" + name + ".json", payLoad).Then(newValue => { callback(); }).Catch(
                     error =>
                     {
                         Debug.Log("Error: " + error);
@@ -43,10 +43,10 @@ namespace Utilities
         
         public static void GetScores(GetScoresCallback callback, GetScoresFallback fallback)
         {
-            RestClient.Get(DatabaseUrl + ".json?orderBy=\"$value\"").Then(scoresRaw =>
+            RestClient.Get(DatabaseUrl + ".json").Then(scoresRaw =>
             {
-                fsData data = fsJsonParser.Parse(scoresRaw.Text);
-                Dictionary<string, string> scores = null;
+                var data = fsJsonParser.Parse(scoresRaw.Text);
+                Scores scores = null;
                 serializer.TryDeserialize(data, ref scores);
                 callback(scores);
             }).Catch(error =>

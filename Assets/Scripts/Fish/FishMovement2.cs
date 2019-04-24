@@ -14,6 +14,19 @@ namespace Fish
 
         private void Start()
         {
+            switch (Global.Difficulty)
+            {
+                case "Easy":
+                    speed = 1;
+                    break;
+                case "Medium":
+                    speed = 2;
+                    break;
+                default:
+                    speed = 4;
+                    break;
+            }
+            
             sr = GetComponent<SpriteRenderer>();
             rb = GetComponent<Rigidbody2D>();
             StartCoroutine(ChangeDirection());

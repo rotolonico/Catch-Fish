@@ -5,6 +5,7 @@ using UnityEngine;
 
 public class Global : MonoBehaviour
 {
+    public static string Difficulty;
     public static int Score;
     public static int FishType;
     public static bool InGame = true;

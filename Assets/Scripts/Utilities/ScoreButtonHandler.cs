@@ -10,7 +10,7 @@ namespace Utilities
         
         public void Submit()
         {
-            DatabaseHandler.PostScore(name.text, Global.Score, () =>
+            DatabaseHandler.PostScore(name.text, Global.Score, Global.Difficulty, () =>
             {
                 Destroy(GameObject.Find("Sound"));
                 Destroy(GameObject.Find("Music"));

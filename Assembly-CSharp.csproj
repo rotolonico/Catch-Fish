@@ -81,6 +81,7 @@
     <Compile Include="Assets\Scripts\Utilities\DatabaseHandler.cs" />
     <Compile Include="Assets\Scripts\Utilities\DoNotDestroyOnLoad.cs" />
     <Compile Include="Assets\Scripts\Utilities\ScoreButtonHandler.cs" />
+    <Compile Include="Assets\Scripts\Utilities\Scores.cs" />
     <Compile Include="Assets\Scripts\Utilities\SoundHandler.cs" />
     <Compile Include="Assets\Source\Aot\fsAotCompilationManager.cs" />
     <Compile Include="Assets\Source\Aot\fsAotConfiguration.cs" />
@@ -356,6 +357,9 @@
     <Reference Include="UnityEngine.SpatialTracking">
       <HintPath>/home/rotolonico/Unity/Hub/Editor/2018.3.11f1/Editor/Data/UnityExtensions/Unity/UnitySpatialTracking/RuntimeEditor/UnityEngine.SpatialTracking.dll</HintPath>
     </Reference>
+    <Reference Include="RSG.Promise">
+      <HintPath>/home/rotolonico/unityprojects/Catch Fish/Assets/RestClient/Packages/RSG.Promise.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.Analytics.StandardEvents">
       <HintPath>/home/rotolonico/unityprojects/Catch Fish/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.StandardEvents.dll</HintPath>
     </Reference>
@@ -364,9 +368,6 @@
     </Reference>
     <Reference Include="Unity.Analytics.Tracker">
       <HintPath>/home/rotolonico/unityprojects/Catch Fish/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Tracker.dll</HintPath>
-    </Reference>
-    <Reference Include="RSG.Promise">
-      <HintPath>/home/rotolonico/unityprojects/Catch Fish/Assets/RestClient/Packages/RSG.Promise.dll</HintPath>
     </Reference>
     <Reference Include="netstandard">
       <HintPath>/home/rotolonico/Unity/Hub/Editor/2018.3.11f1/Editor/Data/NetStandard/ref/2.0.0/netstandard.dll</HintPath>

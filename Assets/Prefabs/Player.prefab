@@ -97,7 +97,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 2
-  maxOxygen: 20
+  maxOxygen: 10
   oxygenBar: {fileID: 0}
 --- !u!50 &3873545440140831396
 Rigidbody2D:

@@ -24,6 +24,19 @@ namespace Player
 
         private void Start()
         {
+            switch (Global.Difficulty)
+            {
+                case "Easy":
+                    maxOxygen = 25;
+                    break;
+                case "Medium":
+                    maxOxygen = 20;
+                    break;
+                default:
+                    maxOxygen = 15;
+                    break;
+            }
+            
             mainCamera = Camera.main;
             rb = GetComponent<Rigidbody2D>();
             oxygen = maxOxygen;
