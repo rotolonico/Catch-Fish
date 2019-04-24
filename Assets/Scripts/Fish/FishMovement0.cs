@@ -8,7 +8,7 @@ namespace Fish
         private Rigidbody2D rb;
         private SpriteRenderer sr;
 
-        public int speed;
+        public float speed;
 
         private int direction;
 
@@ -22,8 +22,11 @@ namespace Fish
                 case "Medium":
                     speed = 2;
                     break;
-                default:
+                case "Hard":
                     speed = 4;
+                    break;
+                default:
+                    speed = Global.speed;
                     break;
             }
             
@@ -46,6 +49,8 @@ namespace Fish
         {
             var position = transform.position;
             rb.MovePosition(direction == 0 ? position + Vector3.left * Time.deltaTime * speed : position + Vector3.right * Time.deltaTime * speed);
+            
+            if (Global.Difficulty == "Progressive") speed = Global.speed;
         }
     }
 }

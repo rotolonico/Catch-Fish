@@ -11,9 +11,11 @@ namespace Utilities
         public Transform easyScoresContent;
         public Transform mediumScoresContent;
         public Transform hardScoresContent;
+        public Transform progressiveScoresContent;
         public Transform easyScores;
         public Transform mediumScores;
         public Transform hardScores;
+        public Transform progressiveScores;
         
         public GameObject scoreGameObject;
         public Canvas mainCanvas;
@@ -59,12 +61,16 @@ namespace Utilities
             foreach (Transform child in hardScoresContent.transform) {
                 Destroy(child.gameObject);
             }
+            foreach (Transform child in progressiveScoresContent.transform) {
+                Destroy(child.gameObject);
+            }
             
             DatabaseHandler.GetScores(scores =>
             {
                 ShowScores(scores.Easy, easyScoresContent);
                 ShowScores(scores.Medium, mediumScoresContent);
                 ShowScores(scores.Hard, hardScoresContent);
+                ShowScores(scores.Progressive, progressiveScoresContent);
                 back.interactable = true;
             }, () =>
             {
@@ -110,16 +116,25 @@ namespace Utilities
                 case "EASY":
                     easyScores.SetAsFirstSibling();
                     hardScores.SetAsFirstSibling();
+                    progressiveScores.SetAsFirstSibling();
                     difficultyText.text = "MEDIUM";
                     break;
                 case "MEDIUM":
                     easyScores.SetAsFirstSibling();
                     mediumScores.SetAsFirstSibling();
+                    progressiveScores.SetAsFirstSibling();
                     difficultyText.text = "HARD";
+                    break;
+                case "HARD":
+                    easyScores.SetAsFirstSibling();
+                    mediumScores.SetAsFirstSibling();
+                    hardScores.SetAsFirstSibling();
+                    difficultyText.text = "PROGRESSIVE";
                     break;
                 default:
                     mediumScores.SetAsFirstSibling();
                     hardScores.SetAsFirstSibling();
+                    progressiveScores.SetAsFirstSibling();
                     difficultyText.text = "EASY";
                     break;
             }

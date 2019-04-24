@@ -73,7 +73,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 5d4f9d9a45b4d9b46833c924d3ce8e73, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 71d38066a54a50a29829e65f992b4763, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -99,6 +99,8 @@ MonoBehaviour:
   speed: 2
   maxOxygen: 10
   oxygenBar: {fileID: 0}
+  player: {fileID: 21300000, guid: 71d38066a54a50a29829e65f992b4763, type: 3}
+  playerSwimming: {fileID: 21300000, guid: 5c1d3b11dd083961c94aee7928c2d940, type: 3}
 --- !u!50 &3873545440140831396
 Rigidbody2D:
   serializedVersion: 4
@@ -137,14 +139,14 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1, y: 1}
+    oldSize: {x: 1.44, y: 3.51}
     newSize: {x: 1, y: 1}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 1.5, y: 3.5}
   m_EdgeRadius: 0
 --- !u!114 &6409752721884979770
 MonoBehaviour:

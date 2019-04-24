@@ -10,5 +10,6 @@ namespace Utilities
         public Dictionary<string, string> Easy;
         public Dictionary<string, string> Medium;
         public Dictionary<string, string> Hard;
+        public Dictionary<string, string> Progressive;
     }
 }

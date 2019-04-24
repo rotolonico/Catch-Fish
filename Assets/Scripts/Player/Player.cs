@@ -9,8 +9,12 @@ namespace Player
     public class Player : MonoBehaviour
     {
         public float speed;
+        public float oxygenFactor;
         public float maxOxygen;
         public RectTransform oxygenBar;
+
+        public Sprite player;
+        public Sprite playerSwimming;
 
         private int range = 3;
         private float oxygen;
@@ -20,6 +24,9 @@ namespace Player
         private ScoreBar scoreBar;
         private FishBar fishBar;
         private SoundHandler soundHandler;
+        private SpriteRenderer sr;
+
+        private float lastMovement;
         
 
         private void Start()
@@ -28,16 +35,24 @@ namespace Player
             {
                 case "Easy":
                     maxOxygen = 25;
+                    oxygenFactor = 15;
                     break;
                 case "Medium":
                     maxOxygen = 20;
+                    oxygenFactor = 17;
+                    break;
+                case "Hard":
+                    maxOxygen = 15;
+                    oxygenFactor = 17;
                     break;
                 default:
-                    maxOxygen = 15;
+                    maxOxygen = 30;
+                    oxygenFactor = 10;
                     break;
             }
             
             mainCamera = Camera.main;
+            sr = GetComponent<SpriteRenderer>();
             rb = GetComponent<Rigidbody2D>();
             oxygen = maxOxygen;
             StartCoroutine(UpdateScore());
@@ -57,6 +72,13 @@ namespace Player
         {
             UpdateOxygen();
             UpdateMovement();
+
+            if (Global.Difficulty != "Progressive") return;
+            Global.upwardsSpeed += Time.deltaTime * Global.EscalationFactor;
+            Global.speed += Time.deltaTime * Global.EscalationFactor;
+            speed = Global.speed;
+            maxOxygen -= Time.deltaTime * Global.EscalationFactor;
+            if (oxygenFactor < 17) oxygenFactor += Time.deltaTime * Global.EscalationFactor;
         }
 
         private void UpdateMovement()
@@ -68,6 +90,26 @@ namespace Player
             transform.position = newPosition;
             var cameraTransform = mainCamera.transform;
             cameraTransform.position = new Vector3(newPosition.x, cameraTransform.position.y, -10);
+
+            if (lastMovement <= 0.5f && Input.GetAxisRaw("Horizontal") > 0.5f)
+            {
+                sr.sprite = playerSwimming;
+                sr.flipX = false;
+                transform.eulerAngles = new Vector3(0, 0, -90);
+            } else if (lastMovement >= -0.5f && Input.GetAxisRaw("Horizontal") < -0.5f)
+            {
+                sr.sprite = playerSwimming;
+                sr.flipX = true;
+                transform.eulerAngles = new Vector3(0, 0, 90);
+            }
+            else if (Input.GetAxisRaw("Horizontal") > -0.5f && Input.GetAxisRaw("Horizontal") < 0.5f && (lastMovement >= 0.5f || lastMovement <= -0.5f))
+            {
+                sr.sprite = player;
+                sr.flipX = false;
+                transform.eulerAngles = Vector3.zero;
+            }
+            
+            lastMovement = Input.GetAxisRaw("Horizontal");
         }
 
         private IEnumerator UpdateScore()
@@ -92,7 +134,7 @@ namespace Player
         private void OnTriggerEnter2D(Collider2D other)
         {
             if (!other.CompareTag("Bubble")) return;
-            oxygen += maxOxygen / 10;
+            oxygen += maxOxygen / oxygenFactor;
             soundHandler.PlayEatBubble();
             Destroy(other.gameObject);
         }

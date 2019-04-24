@@ -2,44 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c7488d7c-1c1d-419d-a441-68c43a3d88e5" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Catch Fish/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Catch Fish/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Catch Fish/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Catch Fish/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assembly-CSharp-Editor.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Assembly-CSharp-Editor.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assembly-CSharp.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Assembly-CSharp.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Fish 0.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Fish 0.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Fish 1.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Fish 1.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Fish 2.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Fish 2.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Player.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Player.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Game.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Game.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Menu.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Menu.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Bubble/Bubble.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Bubble/Bubble.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Fish/FishMovement0.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Fish/FishMovement0.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Fish/FishMovement1.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Fish/FishMovement1.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Fish/FishMovement2.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Fish/FishMovement2.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Generators/BubbleGenerator.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Generators/BubbleGenerator.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Generators/FishGenerator.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Generators/FishGenerator.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Global.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Global.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/Player.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player/Player.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Utilities/ButtonsHandler.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Utilities/ButtonsHandler.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Utilities/DatabaseHandler.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Utilities/DatabaseHandler.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Utilities/ScoreButtonHandler.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Utilities/ScoreButtonHandler.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/CurrentLayout.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/Library/CurrentLayout.dwlt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/EditorInstance.json" beforeDir="false" afterPath="$PROJECT_DIR$/Library/EditorInstance.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Utilities/Scores.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Utilities/Scores.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sounds/GetBubble.wav" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sounds/GetBubble.wav" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/InspectorExpandedItems.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Library/InspectorExpandedItems.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/LastBuild.buildreport" beforeDir="false" afterPath="$PROJECT_DIR$/Library/LastBuild.buildreport" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/LastSceneManagerSetup.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Library/LastSceneManagerSetup.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/PlayerDataCache/Linux64/Data/Managed/Assembly-CSharp.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PlayerDataCache/Linux64/Data/Managed/Assembly-CSharp.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/PlayerDataCache/Linux64/Data/Managed/Unity.Analytics.DataPrivacy.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PlayerDataCache/Linux64/Data/Managed/Unity.Analytics.DataPrivacy.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/PlayerDataCache/Linux64/Data/Managed/Unity.TextMeshPro.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PlayerDataCache/Linux64/Data/Managed/Unity.TextMeshPro.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/PlayerDataCache/Linux64/Data/globalgamemanagers" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PlayerDataCache/Linux64/Data/globalgamemanagers" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/PlayerDataCache/Linux64/Data/globalgamemanagers.assets" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PlayerDataCache/Linux64/Data/globalgamemanagers.assets" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/PlayerDataCache/Linux64/Data/level0" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PlayerDataCache/Linux64/Data/level0" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/PlayerDataCache/Linux64/Data/level1" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PlayerDataCache/Linux64/Data/level1" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/PlayerDataCache/Linux64/Data/sharedassets0.assets" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PlayerDataCache/Linux64/Data/sharedassets0.assets" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/PlayerDataCache/Linux64/Data/sharedassets0.assets.resS" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PlayerDataCache/Linux64/Data/sharedassets0.assets.resS" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/PlayerDataCache/Linux64/Data/sharedassets1.assets" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PlayerDataCache/Linux64/Data/sharedassets1.assets" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/PlayerDataCache/Linux64/ScriptLayoutHashes.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PlayerDataCache/Linux64/ScriptLayoutHashes.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/ProtocolInstance.json" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ProtocolInstance.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp-Editor.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp-Editor.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.pdb" afterDir="false" />
@@ -52,117 +27,19 @@
       <change beforePath="$PROJECT_DIR$/Library/StateCache/SceneView/610b90-mainStage.json" beforeDir="false" afterPath="$PROJECT_DIR$/Library/StateCache/SceneView/610b90-mainStage.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/assetDatabase3" beforeDir="false" afterPath="$PROJECT_DIR$/Library/assetDatabase3" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/metadata/06/06673c32a2cb6cf25a3186329abe362d" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/06/06673c32a2cb6cf25a3186329abe362d" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/metadata/09/0957b2a6a5b55dedf9b3e86a794e13b9" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/09/0957b2a6a5b55dedf9b3e86a794e13b9" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/metadata/09/0957b2a6a5b55dedf9b3e86a794e13b9.info" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/09/0957b2a6a5b55dedf9b3e86a794e13b9.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/metadata/18/18613aa852b0a913494c751778be0b38" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/18/18613aa852b0a913494c751778be0b38" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/metadata/37/37904d69f8313416d92e684424732179" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/37/37904d69f8313416d92e684424732179" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/metadata/56/56f833fc5c268a2d1a2535ec3b8cb70d" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/56/56f833fc5c268a2d1a2535ec3b8cb70d" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/metadata/6a/6a352a0d41591f6808cbfdf321e11c3d" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/6a/6a352a0d41591f6808cbfdf321e11c3d" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/metadata/6d/6db0e4dc271b6b534ab9520acab613aa" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/6d/6db0e4dc271b6b534ab9520acab613aa" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/metadata/6f/6ff90af779a17c24bac3186f17e67318" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/6f/6ff90af779a17c24bac3186f17e67318" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/metadata/72/72c4e6c39c70bb2e49d895bf6d057478" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/72/72c4e6c39c70bb2e49d895bf6d057478" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/metadata/79/79786ffde2ca29a2cbf20642a60e9e0c" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/79/79786ffde2ca29a2cbf20642a60e9e0c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/metadata/81/81699d526d9b5c7f3b13a0e86ccc235d" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/81/81699d526d9b5c7f3b13a0e86ccc235d" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/metadata/81/81699d526d9b5c7f3b13a0e86ccc235d.info" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/81/81699d526d9b5c7f3b13a0e86ccc235d.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/metadata/8c/8c7e5fc60bf70ecdfa64d88c0f67b537" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/8c/8c7e5fc60bf70ecdfa64d88c0f67b537" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/metadata/94/94e3aa7bb1df8964190c756c16bc1f90" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/94/94e3aa7bb1df8964190c756c16bc1f90" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/metadata/79/79786ffde2ca29a2cbf20642a60e9e0c.info" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/79/79786ffde2ca29a2cbf20642a60e9e0c.info" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/metadata/c5/c5bf2d9582278f0a19bf06d511f87fb1" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/c5/c5bf2d9582278f0a19bf06d511f87fb1" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/metadata/d9/d98d18ea26fda961f9f43edef505cbc3" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/d9/d98d18ea26fda961f9f43edef505cbc3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/metadata/e1/e1bee707e845a465ab377ea497d3def9" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/e1/e1bee707e845a465ab377ea497d3def9" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/metadata/e1/e1bee707e845a465ab377ea497d3def9.info" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/e1/e1bee707e845a465ab377ea497d3def9.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/metadata/e1/e1bee707e845a465ab377ea497d3def9.resource" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/e1/e1bee707e845a465ab377ea497d3def9.resource" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/metadata/f1/f1649c970d2e9ec959f3aa99fe988cac" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/f1/f1649c970d2e9ec959f3aa99fe988cac" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler0.log" beforeDir="false" afterPath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler0.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler1.log" beforeDir="false" afterPath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler1.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler2.log" beforeDir="false" afterPath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler2.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler3.log" beforeDir="false" afterPath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler3.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-0445c1a76d4123e769c0f7f55c955eea" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-0476ec49a9bbaf6479371562a38599a0" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-09cc6140ad0fa8f239e8b63ea8997051" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-10a1122d30e27639198aa60143b03cb8" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-1478ad05e5886cc9098d70a45317fa13" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-192eaf0b27c3c23df82533ece1c56976" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-1b1db7aa9cdb223ceaab43d7016c7a18" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-1d81ed08db4bf73a3ac42c877a577ac5" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-1dcf75706b3bc94c6a19ff769b8653b3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-255d5e51fff00537a8256b8bb72b7434" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-268c6531521cc91289a3d290634f8bcc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-271eb33599c26b0eaa781993b4999aec" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-27bb6c5b0b5e70b3db395fd894d718af" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-2822a8a211a419f3c87b7e2f4f0858cc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-2b613e9b55981aca78939a4f61fdb0f7" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-30c09161545dbc6fc84b2d5a6673d260" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-3a7faf4aa58053de59390833652286ee" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-3bba37cb71aa371318dd81724590d76c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-3c00cfed861d7be78bebb63ccaa39b2e" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-3f4784d995281ef9994173a4b6ac203c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-411d33d11ab635e8ea1363c71ddf2b9a" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-422040dea913904cdbd32b76cb3f8859" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-424a2b904608461f7a9f678cf2dbe78e" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-43254ae1a9ae174ffb10b3d6425dd6a6" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-4b843e59ce8bad784b600ea84e4ec170" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-4ba5a88dd1dd3407d8773004ceeeaff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-4d53067bbe0241202b8a48dc61316ed2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-5501ddeb32bf140efb8cdc724d828b4a" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-56998f6ffb30b51f0af2648a36485c3f" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-5c08e3dc61c59621184fa97e038a4d34" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-5c4c45bca93a9d4998cd1c42a7bc7a8a" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-669ea6a1d7429e2cdbaa4f2b04e0a4f9" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-66b51782638b9a613b1ff570c9c50050" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-6850c62c421170f1d8961f99b900da4b" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-692a30fb343edac86b33d98470e8928e" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-6d4dad7614424ee42af6f29e6ea22e2e" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-6ec64f8c73111edf4a73997020cf3f4c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-72035da778a54022aba9c0213252f74f" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-74048b5c91ee42c908e4926b46fb3402" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-7764ea395652fe7afab7d14481f86581" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-77fe12a8c69897c25ad15ab7b5316c39" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-7811756c2041d6f478b4321ab5de2895" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-7bd8ca1548ce192d6a6a851f787666dd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-88ba1fc74ac71e6e1a83550ba7d81516" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-8aa99f7b3c408aa2ca36ca9c9cfe60a7" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-90d5f6398256a8c899ad6390f1f3269a" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-90e1f3b8c7c3d5ecaba92b4fea9b2713" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-913881286f54e559fbae59b41359c037" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-933aad64776a2ac998f4b317a8ee3d37" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-9ac7df7a3c39acf07bbf40769c5fd2ec" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-9b08869a0772e227199a64ad1d315a7e" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-9e8ac1fca50928889b49a1a11c43d4e1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-9f68fdb3783db877196a8526f7665f0a" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-a4f1185b8f40abf969abe4319df91bc0" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-a7aac3388a8bc12acaf75f93bc8a519a" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-ad2102b19dbbe3f41ad6b7fca5423e4c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-b10280966f15a5eaf9743cec5f301d5c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-b4d73f2ad4eef1a96aa173e5667276c6" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-b7b9d7605a3c929f5a876d4c3d7615cb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-b9fea29f6d930372c9afb58804a89d42" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-bad03a31178c506d59fd731f8de128c1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-bb79bf9f943bf98ad9195ab143624be3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-bed4e9b9b053e28348dc100d1fa026dc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-c27609be296dc8852a8f70c1cbf5d23f" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-c5075a3b8cb4f6d6bb6eb9964d1d5ef5" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-c555bcf0a42fb109d8a574ed6f3ae2c9" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-c61c10b313b639e6e85f9f6328db274b" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-cb7f2b0511cd3f0668acb6b61de36ac0" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-cc6358f993581a3d6bc13ede82aebbb7" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-cda12094beed02cca8077f09e89a29cc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-ceba980f1fce8ff628fda5ebcd2669a1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-cf2bfb86e3b36ccdeb4b4cf2403fddeb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-d06138403d55750c6951985b2fe3a154" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-d1556bd314824e480959442f221869d7" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-d17271696470f5f5eb86ddeccd280997" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-d1ba2e1caf0270f83b66a0d6b3f6ecaa" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-d3dff2bf2e3e4b8538e703eb4185f328" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-d5e4f25a0d4caebcfbd7e009c5c6b786" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-d8a3efe93439d274ea62c1d2529b35b6" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-d91c51242aff6931da28b86a6743a642" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-e340e99c2af00a2f28b4e67a0232230d" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-e491366c3cd853476abc436d2c13d14c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-e599b63ec903e7ee7bf2444a0b0917c2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-eb9fee8ea4ecb92af8e494fd2e7ab150" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-ec81bc5b152f7ed15aa605963e89c332" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-ee3233ae1be7bd1269334adc68a59a6b" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-f13f00b3fe7ec555b96d212647b29b53" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-f28bc004326307f9685dd202b9c8f089" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-f59f8e15752d55bfc81cc3eb497e53d2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-ff2b39310db9143eda18abf0c668903f" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Temp/__Backupscenes/0.backup" beforeDir="false" afterPath="$PROJECT_DIR$/Temp/__Backupscenes/0.backup" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -175,16 +52,16 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/Fish/FishMovement1.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="20" selection-start-line="20" selection-end-line="31" selection-end-column="13" />
+            <state relative-caret-position="21">
+              <caret line="21" column="13" lean-forward="true" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
               <folding>
-                <marker date="1556097153455" expanded="false" signature="6:155" ph="..." />
-                <marker date="1556097153455" expanded="true" signature="171:1401" ph="{...}" />
-                <marker date="1556097153455" expanded="true" signature="220:1399" ph="{...}" />
-                <marker date="1556097153455" expanded="true" signature="401:978" ph="{...}" />
-                <marker date="1556097153455" expanded="true" signature="450:737" ph="{...}" />
-                <marker date="1556097153455" expanded="true" signature="1021:1081" ph="{...}" />
-                <marker date="1556097153455" expanded="true" signature="1112:1393" ph="{...}" />
+                <marker date="1556125059934" expanded="false" signature="6:155" ph="..." />
+                <marker date="1556125059934" expanded="true" signature="171:1588" ph="{...}" />
+                <marker date="1556125059934" expanded="true" signature="220:1586" ph="{...}" />
+                <marker date="1556125059934" expanded="true" signature="403:1078" ph="{...}" />
+                <marker date="1556125059934" expanded="true" signature="452:837" ph="{...}" />
+                <marker date="1556125059934" expanded="true" signature="1121:1181" ph="{...}" />
+                <marker date="1556125059934" expanded="true" signature="1212:1580" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -193,49 +70,47 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/Utilities/ButtonsHandler.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="101" column="9" lean-forward="true" selection-start-line="101" selection-start-column="9" selection-end-line="101" selection-end-column="9" />
+            <state relative-caret-position="-41">
+              <caret line="115" column="28" lean-forward="true" selection-start-line="115" selection-start-column="28" selection-end-line="115" selection-end-column="28" />
               <folding>
-                <marker date="1556103149561" expanded="true" signature="6:128" ph="..." />
-                <marker date="1556103149561" expanded="true" signature="149:4852" ph="{...}" />
-                <marker date="1556103149561" expanded="true" signature="199:4850" ph="{...}" />
-                <marker date="1556103149561" expanded="true" signature="1054:1157" ph="{...}" />
-                <marker date="1556103149561" expanded="true" signature="1197:1296" ph="{...}" />
-                <marker date="1556103149561" expanded="true" signature="1330:2343" ph="{...}" />
-                <marker date="1556103149561" expanded="true" signature="1529:1587" ph="{...}" />
-                <marker date="1556103149561" expanded="true" signature="1659:1717" ph="{...}" />
-                <marker date="1556103149561" expanded="true" signature="1787:1845" ph="{...}" />
-                <marker date="1556103149561" expanded="true" signature="1906:2160" ph="{...}" />
-                <marker date="1556103149561" expanded="true" signature="2167:2331" ph="{...}" />
-                <marker date="1556103149561" expanded="true" signature="2436:3105" ph="{...}" />
-                <marker date="1556103149561" expanded="true" signature="2547:2651" ph="{...}" />
-                <marker date="1556103149561" expanded="true" signature="2799:3095" ph="{...}" />
-                <marker date="1556103149561" expanded="true" signature="3133:3317" ph="{...}" />
-                <marker date="1556103149561" expanded="true" signature="3345:3397" ph="{...}" />
-                <marker date="1556103149561" expanded="true" signature="3431:4154" ph="{...}" />
-                <marker date="1556103149561" expanded="true" signature="3482:4144" ph="{...}" />
-                <marker date="1556103149561" expanded="true" signature="4183:4499" ph="{...}" />
-                <marker date="1556103149561" expanded="true" signature="4232:4352" ph="{...}" />
-                <marker date="1556103149561" expanded="true" signature="4369:4489" ph="{...}" />
-                <marker date="1556103149561" expanded="true" signature="4528:4844" ph="{...}" />
-                <marker date="1556103149561" expanded="true" signature="4577:4697" ph="{...}" />
-                <marker date="1556103149561" expanded="true" signature="4714:4834" ph="{...}" />
+                <marker date="1556127468057" expanded="false" signature="6:128" ph="..." />
+                <marker date="1556127468057" expanded="true" signature="149:5604" ph="{...}" />
+                <marker date="1556127468057" expanded="true" signature="199:5602" ph="{...}" />
+                <marker date="1556127468057" expanded="true" signature="1149:1252" ph="{...}" />
+                <marker date="1556127468057" expanded="true" signature="1292:1391" ph="{...}" />
+                <marker date="1556127468057" expanded="true" signature="1425:2647" ph="{...}" />
+                <marker date="1556127468057" expanded="true" signature="1624:1682" ph="{...}" />
+                <marker date="1556127468057" expanded="true" signature="1754:1812" ph="{...}" />
+                <marker date="1556127468057" expanded="true" signature="1882:1940" ph="{...}" />
+                <marker date="1556127468057" expanded="true" signature="2017:2075" ph="{...}" />
+                <marker date="1556127468057" expanded="true" signature="2136:2464" ph="{...}" />
+                <marker date="1556127468057" expanded="true" signature="2471:2635" ph="{...}" />
+                <marker date="1556127468057" expanded="true" signature="2740:3409" ph="{...}" />
+                <marker date="1556127468057" expanded="true" signature="2851:2955" ph="{...}" />
+                <marker date="1556127468057" expanded="true" signature="3103:3399" ph="{...}" />
+                <marker date="1556127468057" expanded="true" signature="3437:3621" ph="{...}" />
+                <marker date="1556127468057" expanded="true" signature="3649:3701" ph="{...}" />
+                <marker date="1556127468057" expanded="true" signature="3735:4906" ph="{...}" />
+                <marker date="1556127468057" expanded="true" signature="3786:4896" ph="{...}" />
+                <marker date="1556127468057" expanded="true" signature="4935:5251" ph="{...}" />
+                <marker date="1556127468057" expanded="true" signature="4984:5104" ph="{...}" />
+                <marker date="1556127468057" expanded="true" signature="5121:5241" ph="{...}" />
+                <marker date="1556127468057" expanded="true" signature="5280:5596" ph="{...}" />
+                <marker date="1556127468057" expanded="true" signature="5329:5449" ph="{...}" />
+                <marker date="1556127468057" expanded="true" signature="5466:5586" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/Scripts/Generators/BubbleGenerator.cs">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/Global.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="17" column="76" selection-start-line="17" selection-start-column="76" selection-end-line="17" selection-end-column="76" />
+            <state relative-caret-position="105">
+              <caret line="10" column="31" lean-forward="true" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
               <folding>
-                <marker date="1556098155388" expanded="false" signature="6:44" ph="..." />
-                <marker date="1556098155388" expanded="true" signature="66:689" ph="{...}" />
-                <marker date="1556098155388" expanded="true" signature="117:687" ph="{...}" />
-                <marker date="1556098155388" expanded="true" signature="187:268" ph="{...}" />
-                <marker date="1556098155388" expanded="true" signature="314:681" ph="{...}" />
+                <marker date="1556125333349" expanded="false" signature="6:92" ph="..." />
+                <marker date="1556125333349" expanded="true" signature="129:459" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -244,10 +119,10 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/Generators/FishGenerator.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret line="2" column="18" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
+            <state relative-caret-position="270">
+              <caret line="18" column="66" selection-start-line="18" selection-start-column="66" selection-end-line="18" selection-end-column="66" />
               <folding>
-                <marker date="1556097948350" expanded="false" signature="6:56" ph="..." />
+                <marker date="1556097948350" expanded="true" signature="6:56" ph="..." />
                 <marker date="1556097948350" expanded="true" signature="78:821" ph="{...}" />
                 <marker date="1556097948350" expanded="true" signature="127:819" ph="{...}" />
                 <marker date="1556097948350" expanded="true" signature="199:263" ph="{...}" />
@@ -258,18 +133,52 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/Bars/ScoreBar.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="9" column="9" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
+              <folding>
+                <marker date="1556011132631" expanded="false" signature="6:40" ph="..." />
+                <marker date="1556011132631" expanded="true" signature="56:339" ph="{...}" />
+                <marker date="1556011132631" expanded="true" signature="100:337" ph="{...}" />
+                <marker date="1556011132631" expanded="true" signature="163:225" ph="{...}" />
+                <marker date="1556011132631" expanded="true" signature="260:331" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/Fish/FishMovement0.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="27" column="13" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
+            <state relative-caret-position="186">
+              <caret line="28" column="41" selection-start-line="28" selection-start-column="41" selection-end-line="28" selection-end-column="41" />
               <folding>
-                <marker date="1556097153458" expanded="false" signature="6:44" ph="..." />
-                <marker date="1556097153458" expanded="true" signature="60:1369" ph="{...}" />
-                <marker date="1556097153458" expanded="true" signature="109:1367" ph="{...}" />
-                <marker date="1556097153458" expanded="true" signature="271:772" ph="{...}" />
-                <marker date="1556097153458" expanded="true" signature="320:607" ph="{...}" />
-                <marker date="1556097153458" expanded="true" signature="827:1106" ph="{...}" />
-                <marker date="1556097153458" expanded="true" signature="1146:1361" ph="{...}" />
+                <marker date="1556125061270" expanded="false" signature="6:44" ph="..." />
+                <marker date="1556125061270" expanded="true" signature="60:1556" ph="{...}" />
+                <marker date="1556125061270" expanded="true" signature="109:1554" ph="{...}" />
+                <marker date="1556125061270" expanded="true" signature="273:872" ph="{...}" />
+                <marker date="1556125061270" expanded="true" signature="322:707" ph="{...}" />
+                <marker date="1556125061270" expanded="true" signature="927:1206" ph="{...}" />
+                <marker date="1556125061270" expanded="true" signature="1246:1548" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/Fish/FishMovement2.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="246">
+              <caret line="28" column="20" selection-start-line="28" selection-start-column="20" selection-end-line="28" selection-end-column="41" />
+              <folding>
+                <marker date="1556125061265" expanded="false" signature="6:44" ph="..." />
+                <marker date="1556125061265" expanded="true" signature="60:1666" ph="{...}" />
+                <marker date="1556125061265" expanded="true" signature="109:1664" ph="{...}" />
+                <marker date="1556125061265" expanded="true" signature="277:876" ph="{...}" />
+                <marker date="1556125061265" expanded="true" signature="326:711" ph="{...}" />
+                <marker date="1556125061265" expanded="true" signature="931:1276" ph="{...}" />
+                <marker date="1556125061265" expanded="true" signature="1316:1658" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -278,58 +187,27 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/Player/Player.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="32" column="34" selection-start-line="32" selection-start-column="34" selection-end-line="32" selection-end-column="34" />
+            <state relative-caret-position="199">
+              <caret line="75" column="24" selection-start-line="75" selection-start-column="24" selection-end-line="75" selection-end-column="24" />
               <folding>
-                <marker date="1556098484702" expanded="false" signature="6:85" ph="..." />
-                <marker date="1556098484702" expanded="true" signature="103:3814" ph="{...}" />
-                <marker date="1556098484702" expanded="true" signature="145:3812" ph="{...}" />
-                <marker date="1556098484702" expanded="true" signature="531:1327" ph="{...}" />
-                <marker date="1556098484702" expanded="true" signature="580:882" ph="{...}" />
-                <marker date="1556098484702" expanded="true" signature="1363:1472" ph="{...}" />
-                <marker date="1556098484702" expanded="true" signature="1503:1581" ph="{...}" />
-                <marker date="1556098484702" expanded="true" signature="1620:2102" ph="{...}" />
-                <marker date="1556098484702" expanded="true" signature="2145:2365" ph="{...}" />
-                <marker date="1556098484702" expanded="true" signature="2402:2777" ph="{...}" />
-                <marker date="1556098484702" expanded="true" signature="2834:3026" ph="{...}" />
-                <marker date="1556098484702" expanded="true" signature="3086:3639" ph="{...}" />
-                <marker date="1556098484702" expanded="true" signature="3245:3384" ph="{...}" />
-                <marker date="1556098484702" expanded="true" signature="3401:3541" ph="{...}" />
-                <marker date="1556098484702" expanded="true" signature="3671:3806" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/Scripts/Utilities/ScoreButtonHandler.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="11" column="9" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
-              <folding>
-                <marker date="1556099073280" expanded="false" signature="6:75" ph="..." />
-                <marker date="1556099073280" expanded="true" signature="96:551" ph="{...}" />
-                <marker date="1556099073280" expanded="true" signature="150:549" ph="{...}" />
-                <marker date="1556099073280" expanded="true" signature="226:543" ph="{...}" />
-                <marker date="1556099073280" expanded="true" signature="324:531" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/Scripts/Bubble/Bubble.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="11" selection-start-line="11" selection-end-line="11" />
-              <folding>
-                <marker date="1556098786990" expanded="false" signature="6:44" ph="..." />
-                <marker date="1556098786990" expanded="true" signature="62:1354" ph="{...}" />
-                <marker date="1556098786990" expanded="true" signature="104:1352" ph="{...}" />
-                <marker date="1556098786990" expanded="true" signature="276:749" ph="{...}" />
-                <marker date="1556098786990" expanded="true" signature="325:633" ph="{...}" />
-                <marker date="1556098786990" expanded="true" signature="796:1032" ph="{...}" />
-                <marker date="1556098786990" expanded="true" signature="1063:1346" ph="{...}" />
+                <marker date="1556125321989" expanded="true" signature="6:85" ph="..." />
+                <marker date="1556125321989" expanded="true" signature="103:5568" ph="{...}" />
+                <marker date="1556125321989" expanded="true" signature="145:5566" ph="{...}" />
+                <marker date="1556125321989" expanded="true" signature="707:1800" ph="{...}" />
+                <marker date="1556125321989" expanded="true" signature="756:1306" ph="{...}" />
+                <marker date="1556125321989" expanded="true" signature="1836:1945" ph="{...}" />
+                <marker date="1556125321989" expanded="true" signature="1976:2456" ph="{...}" />
+                <marker date="1556125321989" expanded="true" signature="2495:3846" ph="{...}" />
+                <marker date="1556125321989" expanded="true" signature="3047:3217" ph="{...}" />
+                <marker date="1556125321989" expanded="true" signature="3291:3459" ph="{...}" />
+                <marker date="1556125321989" expanded="true" signature="3612:3764" ph="{...}" />
+                <marker date="1556125321989" expanded="true" signature="3889:4109" ph="{...}" />
+                <marker date="1556125321989" expanded="true" signature="4146:4521" ph="{...}" />
+                <marker date="1556125321989" expanded="true" signature="4578:4780" ph="{...}" />
+                <marker date="1556125321989" expanded="true" signature="4840:5393" ph="{...}" />
+                <marker date="1556125321989" expanded="true" signature="4999:5138" ph="{...}" />
+                <marker date="1556125321989" expanded="true" signature="5155:5295" ph="{...}" />
+                <marker date="1556125321989" expanded="true" signature="5425:5560" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -338,8 +216,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/Utilities/DatabaseHandler.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="26" column="31" selection-start-line="26" selection-start-column="31" selection-end-line="26" selection-end-column="31" />
+            <state relative-caret-position="322">
+              <caret line="43" column="14" selection-start-line="43" selection-start-column="14" selection-end-line="43" selection-end-column="14" />
               <folding>
                 <marker date="1556100916039" expanded="false" signature="6:141" ph="..." />
                 <marker date="1556100916039" expanded="true" signature="162:2023" ph="{...}" />
@@ -360,12 +238,12 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/Utilities/Scores.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="1" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
+            <state relative-caret-position="135">
+              <caret line="11" column="43" lean-forward="true" selection-start-line="11" selection-start-column="43" selection-end-line="11" selection-end-column="43" />
               <folding>
-                <marker date="1556099073268" expanded="true" signature="6:66" ph="..." />
-                <marker date="1556099073268" expanded="true" signature="87:292" ph="{...}" />
-                <marker date="1556099073268" expanded="true" signature="132:290" ph="{...}" />
+                <marker date="1556127469913" expanded="false" signature="6:66" ph="..." />
+                <marker date="1556127469913" expanded="true" signature="87:347" ph="{...}" />
+                <marker date="1556127469913" expanded="true" signature="132:345" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -376,7 +254,17 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>fishe</find>
+      <find>case &quot;HARD&quot;:</find>
+      <find>E</find>
+      <find>case &quot;Hard&quot;</find>
+      <find>case &quot;Hard&quot;:</find>
+      <find>Database</find>
+      <find>hardScores</find>
     </findStrings>
+    <replaceStrings>
+      <replace>case &quot;Hard&quot;:</replace>
+      <replace>,</replace>
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -393,6 +281,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Bars/ScoreBar.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Utilities/Scores.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Utilities/ScoreButtonHandler.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/RestClient/Packages/Proyecto26.RestClient/RestClient.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Bars/FishBar.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Bubble/Bubble.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Utilities/DatabaseHandler.cs" root0="FORCE_HIGHLIGHTING" />
@@ -414,17 +303,17 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Bars/FishBar.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Utilities/DoNotDestroyOnLoad.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Utilities/SoundHandler.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Global.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Generators/FishGenerator.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Generators/BubbleGenerator.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Utilities/ScoreButtonHandler.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Utilities/DatabaseHandler.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Bubble/Bubble.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Fish/FishMovement2.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Fish/FishMovement0.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Fish/FishMovement1.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Generators/FishGenerator.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Generators/BubbleGenerator.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Player/Player.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Bubble/Bubble.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Global.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Utilities/Scores.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Utilities/ScoreButtonHandler.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Utilities/DatabaseHandler.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Player/Player.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Utilities/ButtonsHandler.cs" />
       </list>
     </option>
@@ -547,12 +436,13 @@
       <workItem from="1555946032651" duration="4613000" />
       <workItem from="1556000739097" duration="12293000" />
       <workItem from="1556023095538" duration="7956000" />
-      <workItem from="1556090099090" duration="9720000" />
+      <workItem from="1556090099090" duration="10321000" />
+      <workItem from="1556119776060" duration="7562000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="34582000" />
+    <option name="totallyTimeSpent" value="42745000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -565,9 +455,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="0" width="1602" height="876" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25933075" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26254827" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Capture Tool" order="3" />
@@ -620,20 +509,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="242">
           <caret line="403" column="21" selection-start-line="403" selection-start-column="21" selection-end-line="403" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Bars/ScoreBar.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="9" column="9" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
-          <folding>
-            <marker date="1556011132631" expanded="false" signature="6:40" ph="..." />
-            <marker date="1556011132631" expanded="true" signature="56:339" ph="{...}" />
-            <marker date="1556011132631" expanded="true" signature="100:337" ph="{...}" />
-            <marker date="1556011132631" expanded="true" signature="163:225" ph="{...}" />
-            <marker date="1556011132631" expanded="true" signature="260:331" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -690,106 +565,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Global.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="24" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
-          <folding>
-            <marker date="1556097153428" expanded="true" signature="6:92" ph="..." />
-            <marker date="1556097153428" expanded="true" signature="129:328" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Fish/FishMovement2.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="381">
-          <caret line="27" column="13" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
-          <folding>
-            <marker date="1556097153446" expanded="false" signature="6:44" ph="..." />
-            <marker date="1556097153446" expanded="true" signature="60:1479" ph="{...}" />
-            <marker date="1556097153446" expanded="true" signature="109:1477" ph="{...}" />
-            <marker date="1556097153446" expanded="true" signature="275:776" ph="{...}" />
-            <marker date="1556097153446" expanded="true" signature="324:611" ph="{...}" />
-            <marker date="1556097153446" expanded="true" signature="831:1176" ph="{...}" />
-            <marker date="1556097153446" expanded="true" signature="1216:1471" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Fish/FishMovement0.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="27" column="13" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
-          <folding>
-            <marker date="1556097153458" expanded="false" signature="6:44" ph="..." />
-            <marker date="1556097153458" expanded="true" signature="60:1369" ph="{...}" />
-            <marker date="1556097153458" expanded="true" signature="109:1367" ph="{...}" />
-            <marker date="1556097153458" expanded="true" signature="271:772" ph="{...}" />
-            <marker date="1556097153458" expanded="true" signature="320:607" ph="{...}" />
-            <marker date="1556097153458" expanded="true" signature="827:1106" ph="{...}" />
-            <marker date="1556097153458" expanded="true" signature="1146:1361" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Generators/FishGenerator.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="2" column="18" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
-          <folding>
-            <marker date="1556097948350" expanded="false" signature="6:56" ph="..." />
-            <marker date="1556097948350" expanded="true" signature="78:821" ph="{...}" />
-            <marker date="1556097948350" expanded="true" signature="127:819" ph="{...}" />
-            <marker date="1556097948350" expanded="true" signature="199:263" ph="{...}" />
-            <marker date="1556097948350" expanded="true" signature="307:813" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Fish/FishMovement1.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="20" selection-start-line="20" selection-end-line="31" selection-end-column="13" />
-          <folding>
-            <marker date="1556097153455" expanded="false" signature="6:155" ph="..." />
-            <marker date="1556097153455" expanded="true" signature="171:1401" ph="{...}" />
-            <marker date="1556097153455" expanded="true" signature="220:1399" ph="{...}" />
-            <marker date="1556097153455" expanded="true" signature="401:978" ph="{...}" />
-            <marker date="1556097153455" expanded="true" signature="450:737" ph="{...}" />
-            <marker date="1556097153455" expanded="true" signature="1021:1081" ph="{...}" />
-            <marker date="1556097153455" expanded="true" signature="1112:1393" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Player/Player.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="32" column="34" selection-start-line="32" selection-start-column="34" selection-end-line="32" selection-end-column="34" />
-          <folding>
-            <marker date="1556098484702" expanded="false" signature="6:85" ph="..." />
-            <marker date="1556098484702" expanded="true" signature="103:3814" ph="{...}" />
-            <marker date="1556098484702" expanded="true" signature="145:3812" ph="{...}" />
-            <marker date="1556098484702" expanded="true" signature="531:1327" ph="{...}" />
-            <marker date="1556098484702" expanded="true" signature="580:882" ph="{...}" />
-            <marker date="1556098484702" expanded="true" signature="1363:1472" ph="{...}" />
-            <marker date="1556098484702" expanded="true" signature="1503:1581" ph="{...}" />
-            <marker date="1556098484702" expanded="true" signature="1620:2102" ph="{...}" />
-            <marker date="1556098484702" expanded="true" signature="2145:2365" ph="{...}" />
-            <marker date="1556098484702" expanded="true" signature="2402:2777" ph="{...}" />
-            <marker date="1556098484702" expanded="true" signature="2834:3026" ph="{...}" />
-            <marker date="1556098484702" expanded="true" signature="3086:3639" ph="{...}" />
-            <marker date="1556098484702" expanded="true" signature="3245:3384" ph="{...}" />
-            <marker date="1556098484702" expanded="true" signature="3401:3541" ph="{...}" />
-            <marker date="1556098484702" expanded="true" signature="3671:3806" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/Generators/BubbleGenerator.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
+        <state relative-caret-position="195">
           <caret line="17" column="76" selection-start-line="17" selection-start-column="76" selection-end-line="17" selection-end-column="76" />
           <folding>
             <marker date="1556098155388" expanded="false" signature="6:44" ph="..." />
@@ -801,37 +579,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Bubble/Bubble.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
-          <folding>
-            <marker date="1556098786990" expanded="false" signature="6:44" ph="..." />
-            <marker date="1556098786990" expanded="true" signature="62:1354" ph="{...}" />
-            <marker date="1556098786990" expanded="true" signature="104:1352" ph="{...}" />
-            <marker date="1556098786990" expanded="true" signature="276:749" ph="{...}" />
-            <marker date="1556098786990" expanded="true" signature="325:633" ph="{...}" />
-            <marker date="1556098786990" expanded="true" signature="796:1032" ph="{...}" />
-            <marker date="1556098786990" expanded="true" signature="1063:1346" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Utilities/Scores.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="1" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
-          <folding>
-            <marker date="1556099073268" expanded="true" signature="6:66" ph="..." />
-            <marker date="1556099073268" expanded="true" signature="87:292" ph="{...}" />
-            <marker date="1556099073268" expanded="true" signature="132:290" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/Utilities/ScoreButtonHandler.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
+        <state relative-caret-position="105">
           <caret line="11" column="9" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
           <folding>
             <marker date="1556099073280" expanded="false" signature="6:75" ph="..." />
@@ -843,10 +593,152 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Bubble/Bubble.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="202">
+          <caret line="28" column="38" lean-forward="true" selection-start-line="28" selection-start-column="38" selection-end-line="28" selection-end-column="38" />
+          <folding>
+            <marker date="1556125061255" expanded="false" signature="6:44" ph="..." />
+            <marker date="1556125061255" expanded="true" signature="62:1555" ph="{...}" />
+            <marker date="1556125061255" expanded="true" signature="104:1553" ph="{...}" />
+            <marker date="1556125061255" expanded="true" signature="276:861" ph="{...}" />
+            <marker date="1556125061255" expanded="true" signature="325:745" ph="{...}" />
+            <marker date="1556125061255" expanded="true" signature="908:1144" ph="{...}" />
+            <marker date="1556125061255" expanded="true" signature="1175:1547" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Fish/FishMovement2.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="246">
+          <caret line="28" column="20" selection-start-line="28" selection-start-column="20" selection-end-line="28" selection-end-column="41" />
+          <folding>
+            <marker date="1556125061265" expanded="false" signature="6:44" ph="..." />
+            <marker date="1556125061265" expanded="true" signature="60:1666" ph="{...}" />
+            <marker date="1556125061265" expanded="true" signature="109:1664" ph="{...}" />
+            <marker date="1556125061265" expanded="true" signature="277:876" ph="{...}" />
+            <marker date="1556125061265" expanded="true" signature="326:711" ph="{...}" />
+            <marker date="1556125061265" expanded="true" signature="931:1276" ph="{...}" />
+            <marker date="1556125061265" expanded="true" signature="1316:1658" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Fish/FishMovement0.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="28" column="41" selection-start-line="28" selection-start-column="41" selection-end-line="28" selection-end-column="41" />
+          <folding>
+            <marker date="1556125061270" expanded="false" signature="6:44" ph="..." />
+            <marker date="1556125061270" expanded="true" signature="60:1556" ph="{...}" />
+            <marker date="1556125061270" expanded="true" signature="109:1554" ph="{...}" />
+            <marker date="1556125061270" expanded="true" signature="273:872" ph="{...}" />
+            <marker date="1556125061270" expanded="true" signature="322:707" ph="{...}" />
+            <marker date="1556125061270" expanded="true" signature="927:1206" ph="{...}" />
+            <marker date="1556125061270" expanded="true" signature="1246:1548" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Fish/FishMovement1.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21">
+          <caret line="21" column="13" lean-forward="true" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+          <folding>
+            <marker date="1556125059934" expanded="false" signature="6:155" ph="..." />
+            <marker date="1556125059934" expanded="true" signature="171:1588" ph="{...}" />
+            <marker date="1556125059934" expanded="true" signature="220:1586" ph="{...}" />
+            <marker date="1556125059934" expanded="true" signature="403:1078" ph="{...}" />
+            <marker date="1556125059934" expanded="true" signature="452:837" ph="{...}" />
+            <marker date="1556125059934" expanded="true" signature="1121:1181" ph="{...}" />
+            <marker date="1556125059934" expanded="true" signature="1212:1580" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Global.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="10" column="31" lean-forward="true" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
+          <folding>
+            <marker date="1556125333349" expanded="false" signature="6:92" ph="..." />
+            <marker date="1556125333349" expanded="true" signature="129:459" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Generators/FishGenerator.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="66" selection-start-line="18" selection-start-column="66" selection-end-line="18" selection-end-column="66" />
+          <folding>
+            <marker date="1556097948350" expanded="true" signature="6:56" ph="..." />
+            <marker date="1556097948350" expanded="true" signature="78:821" ph="{...}" />
+            <marker date="1556097948350" expanded="true" signature="127:819" ph="{...}" />
+            <marker date="1556097948350" expanded="true" signature="199:263" ph="{...}" />
+            <marker date="1556097948350" expanded="true" signature="307:813" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Bars/ScoreBar.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="9" column="9" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
+          <folding>
+            <marker date="1556011132631" expanded="false" signature="6:40" ph="..." />
+            <marker date="1556011132631" expanded="true" signature="56:339" ph="{...}" />
+            <marker date="1556011132631" expanded="true" signature="100:337" ph="{...}" />
+            <marker date="1556011132631" expanded="true" signature="163:225" ph="{...}" />
+            <marker date="1556011132631" expanded="true" signature="260:331" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Utilities/Scores.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="11" column="43" lean-forward="true" selection-start-line="11" selection-start-column="43" selection-end-line="11" selection-end-column="43" />
+          <folding>
+            <marker date="1556127469913" expanded="false" signature="6:66" ph="..." />
+            <marker date="1556127469913" expanded="true" signature="87:347" ph="{...}" />
+            <marker date="1556127469913" expanded="true" signature="132:345" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Player/Player.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="199">
+          <caret line="75" column="24" selection-start-line="75" selection-start-column="24" selection-end-line="75" selection-end-column="24" />
+          <folding>
+            <marker date="1556125321989" expanded="true" signature="6:85" ph="..." />
+            <marker date="1556125321989" expanded="true" signature="103:5568" ph="{...}" />
+            <marker date="1556125321989" expanded="true" signature="145:5566" ph="{...}" />
+            <marker date="1556125321989" expanded="true" signature="707:1800" ph="{...}" />
+            <marker date="1556125321989" expanded="true" signature="756:1306" ph="{...}" />
+            <marker date="1556125321989" expanded="true" signature="1836:1945" ph="{...}" />
+            <marker date="1556125321989" expanded="true" signature="1976:2456" ph="{...}" />
+            <marker date="1556125321989" expanded="true" signature="2495:3846" ph="{...}" />
+            <marker date="1556125321989" expanded="true" signature="3047:3217" ph="{...}" />
+            <marker date="1556125321989" expanded="true" signature="3291:3459" ph="{...}" />
+            <marker date="1556125321989" expanded="true" signature="3612:3764" ph="{...}" />
+            <marker date="1556125321989" expanded="true" signature="3889:4109" ph="{...}" />
+            <marker date="1556125321989" expanded="true" signature="4146:4521" ph="{...}" />
+            <marker date="1556125321989" expanded="true" signature="4578:4780" ph="{...}" />
+            <marker date="1556125321989" expanded="true" signature="4840:5393" ph="{...}" />
+            <marker date="1556125321989" expanded="true" signature="4999:5138" ph="{...}" />
+            <marker date="1556125321989" expanded="true" signature="5155:5295" ph="{...}" />
+            <marker date="1556125321989" expanded="true" signature="5425:5560" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/Utilities/DatabaseHandler.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="26" column="31" selection-start-line="26" selection-start-column="31" selection-end-line="26" selection-end-column="31" />
+        <state relative-caret-position="322">
+          <caret line="43" column="14" selection-start-line="43" selection-start-column="14" selection-end-line="43" selection-end-column="14" />
           <folding>
             <marker date="1556100916039" expanded="false" signature="6:141" ph="..." />
             <marker date="1556100916039" expanded="true" signature="162:2023" ph="{...}" />
@@ -865,33 +757,34 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/Utilities/ButtonsHandler.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="101" column="9" lean-forward="true" selection-start-line="101" selection-start-column="9" selection-end-line="101" selection-end-column="9" />
+        <state relative-caret-position="-41">
+          <caret line="115" column="28" lean-forward="true" selection-start-line="115" selection-start-column="28" selection-end-line="115" selection-end-column="28" />
           <folding>
-            <marker date="1556103149561" expanded="true" signature="6:128" ph="..." />
-            <marker date="1556103149561" expanded="true" signature="149:4852" ph="{...}" />
-            <marker date="1556103149561" expanded="true" signature="199:4850" ph="{...}" />
-            <marker date="1556103149561" expanded="true" signature="1054:1157" ph="{...}" />
-            <marker date="1556103149561" expanded="true" signature="1197:1296" ph="{...}" />
-            <marker date="1556103149561" expanded="true" signature="1330:2343" ph="{...}" />
-            <marker date="1556103149561" expanded="true" signature="1529:1587" ph="{...}" />
-            <marker date="1556103149561" expanded="true" signature="1659:1717" ph="{...}" />
-            <marker date="1556103149561" expanded="true" signature="1787:1845" ph="{...}" />
-            <marker date="1556103149561" expanded="true" signature="1906:2160" ph="{...}" />
-            <marker date="1556103149561" expanded="true" signature="2167:2331" ph="{...}" />
-            <marker date="1556103149561" expanded="true" signature="2436:3105" ph="{...}" />
-            <marker date="1556103149561" expanded="true" signature="2547:2651" ph="{...}" />
-            <marker date="1556103149561" expanded="true" signature="2799:3095" ph="{...}" />
-            <marker date="1556103149561" expanded="true" signature="3133:3317" ph="{...}" />
-            <marker date="1556103149561" expanded="true" signature="3345:3397" ph="{...}" />
-            <marker date="1556103149561" expanded="true" signature="3431:4154" ph="{...}" />
-            <marker date="1556103149561" expanded="true" signature="3482:4144" ph="{...}" />
-            <marker date="1556103149561" expanded="true" signature="4183:4499" ph="{...}" />
-            <marker date="1556103149561" expanded="true" signature="4232:4352" ph="{...}" />
-            <marker date="1556103149561" expanded="true" signature="4369:4489" ph="{...}" />
-            <marker date="1556103149561" expanded="true" signature="4528:4844" ph="{...}" />
-            <marker date="1556103149561" expanded="true" signature="4577:4697" ph="{...}" />
-            <marker date="1556103149561" expanded="true" signature="4714:4834" ph="{...}" />
+            <marker date="1556127468057" expanded="false" signature="6:128" ph="..." />
+            <marker date="1556127468057" expanded="true" signature="149:5604" ph="{...}" />
+            <marker date="1556127468057" expanded="true" signature="199:5602" ph="{...}" />
+            <marker date="1556127468057" expanded="true" signature="1149:1252" ph="{...}" />
+            <marker date="1556127468057" expanded="true" signature="1292:1391" ph="{...}" />
+            <marker date="1556127468057" expanded="true" signature="1425:2647" ph="{...}" />
+            <marker date="1556127468057" expanded="true" signature="1624:1682" ph="{...}" />
+            <marker date="1556127468057" expanded="true" signature="1754:1812" ph="{...}" />
+            <marker date="1556127468057" expanded="true" signature="1882:1940" ph="{...}" />
+            <marker date="1556127468057" expanded="true" signature="2017:2075" ph="{...}" />
+            <marker date="1556127468057" expanded="true" signature="2136:2464" ph="{...}" />
+            <marker date="1556127468057" expanded="true" signature="2471:2635" ph="{...}" />
+            <marker date="1556127468057" expanded="true" signature="2740:3409" ph="{...}" />
+            <marker date="1556127468057" expanded="true" signature="2851:2955" ph="{...}" />
+            <marker date="1556127468057" expanded="true" signature="3103:3399" ph="{...}" />
+            <marker date="1556127468057" expanded="true" signature="3437:3621" ph="{...}" />
+            <marker date="1556127468057" expanded="true" signature="3649:3701" ph="{...}" />
+            <marker date="1556127468057" expanded="true" signature="3735:4906" ph="{...}" />
+            <marker date="1556127468057" expanded="true" signature="3786:4896" ph="{...}" />
+            <marker date="1556127468057" expanded="true" signature="4935:5251" ph="{...}" />
+            <marker date="1556127468057" expanded="true" signature="4984:5104" ph="{...}" />
+            <marker date="1556127468057" expanded="true" signature="5121:5241" ph="{...}" />
+            <marker date="1556127468057" expanded="true" signature="5280:5596" ph="{...}" />
+            <marker date="1556127468057" expanded="true" signature="5329:5449" ph="{...}" />
+            <marker date="1556127468057" expanded="true" signature="5466:5586" ph="{...}" />
           </folding>
         </state>
       </provider>

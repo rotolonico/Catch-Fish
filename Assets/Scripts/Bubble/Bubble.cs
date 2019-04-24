@@ -22,8 +22,11 @@ namespace Bubble
                 case "Medium":
                     upwardsSpeed = 3;
                     break;
-                default:
+                case "Hard":
                     upwardsSpeed = 4;
+                    break;
+                default:
+                    upwardsSpeed = Global.upwardsSpeed;
                     break;
             }
             
@@ -43,6 +46,8 @@ namespace Bubble
         {
             var position = transform.position;
             rb.MovePosition(direction == 0 ? position + (Vector3.up * upwardsSpeed + Vector3.left * speed) * Time.deltaTime : position + (Vector3.up * upwardsSpeed + Vector3.right * speed) * Time.deltaTime * speed);
+
+            if (Global.Difficulty == "Progressive") upwardsSpeed = Global.upwardsSpeed;
         }
     }
 }
