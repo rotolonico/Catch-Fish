@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 namespace Bubble
 {
@@ -25,10 +26,15 @@ namespace Bubble
                 case "Hard":
                     upwardsSpeed = 4;
                     break;
+                case "Progressive":
+                    upwardsSpeed = Global.UpwardsSpeed;
+                    break;
                 default:
-                    upwardsSpeed = Global.upwardsSpeed;
+                    upwardsSpeed = Global.CustomBubblesSpeed;
                     break;
             }
+
+            if (!Global.InGame) upwardsSpeed = 3;
             
             rb = GetComponent<Rigidbody2D>();
             StartCoroutine(ChangeDirection());
@@ -36,7 +42,6 @@ namespace Bubble
 
         private IEnumerator ChangeDirection()
         {
-            if (!Global.InGame) yield break;
             direction = Global.rnd.Next(0, 2);
             yield return new WaitForSeconds((float)Global.rnd.NextDouble());
             StartCoroutine(ChangeDirection());
@@ -47,7 +52,7 @@ namespace Bubble
             var position = transform.position;
             rb.MovePosition(direction == 0 ? position + (Vector3.up * upwardsSpeed + Vector3.left * speed) * Time.deltaTime : position + (Vector3.up * upwardsSpeed + Vector3.right * speed) * Time.deltaTime * speed);
 
-            if (Global.Difficulty == "Progressive") upwardsSpeed = Global.upwardsSpeed;
+            if (Global.Difficulty == "Progressive") upwardsSpeed = Global.UpwardsSpeed;
         }
     }
 }

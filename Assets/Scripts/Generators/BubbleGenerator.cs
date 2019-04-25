@@ -14,7 +14,6 @@ namespace Generators
 
         private IEnumerator GenerateBubble()
         {
-            if (!Global.InGame) yield break;
             yield return new WaitForSeconds((float) Global.rnd.NextDouble() * 1.5f);
             var bubblePosition = new Vector3(transform.position.x + Global.rnd.Next(-10,11), -5 ,0);
             Instantiate(bubble, bubblePosition, Quaternion.identity);

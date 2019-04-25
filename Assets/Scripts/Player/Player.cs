@@ -13,6 +13,9 @@ namespace Player
         public float maxOxygen;
         public RectTransform oxygenBar;
 
+        public GameObject plusTen;
+        public GameObject minusFive;
+
         public Sprite player;
         public Sprite playerSwimming;
 
@@ -31,6 +34,10 @@ namespace Player
 
         private void Start()
         {
+            
+            Global.UpwardsSpeed = 1;
+            Global.Speed = 0.5f;
+        
             switch (Global.Difficulty)
             {
                 case "Easy":
@@ -45,9 +52,14 @@ namespace Player
                     maxOxygen = 15;
                     oxygenFactor = 17;
                     break;
-                default:
+                case "Progressive":
                     maxOxygen = 30;
                     oxygenFactor = 10;
+                    break;
+                default:
+                    maxOxygen = Global.CustomMaxOxygen;
+                    oxygenFactor = Global.CustomOxygenFactor;
+                    speed = Global.CustomPlayerSpeed;
                     break;
             }
             
@@ -74,9 +86,9 @@ namespace Player
             UpdateMovement();
 
             if (Global.Difficulty != "Progressive") return;
-            Global.upwardsSpeed += Time.deltaTime * Global.EscalationFactor;
-            Global.speed += Time.deltaTime * Global.EscalationFactor;
-            speed = Global.speed;
+            Global.UpwardsSpeed += Time.deltaTime * Global.EscalationFactor;
+            Global.Speed += Time.deltaTime * Global.EscalationFactor;
+            speed = Global.Speed;
             maxOxygen -= Time.deltaTime * Global.EscalationFactor;
             if (oxygenFactor < 17) oxygenFactor += Time.deltaTime * Global.EscalationFactor;
         }
@@ -114,7 +126,6 @@ namespace Player
 
         private IEnumerator UpdateScore()
         {
-            if (!Global.InGame) yield break;
             yield return new WaitForSeconds(3);
             Global.Score++;
             scoreBar.UpdateScore();
@@ -144,12 +155,14 @@ namespace Player
             if (!other.gameObject.CompareTag("Fish")) return;
             if (other.gameObject.GetComponent<FishType>().fishType == Global.FishType)
             {
+                Instantiate(plusTen, other.transform.position, Quaternion.identity);
                 soundHandler.PlayEatGood();
                 Global.Score += 10;
                 NewFishType();
             }
             else
             {
+                Instantiate(minusFive, other.transform.position, Quaternion.identity);
                 soundHandler.PlayEatBad();
                 Global.Score -= Global.Score > 5 ? 5 : Global.Score;
             }
@@ -160,7 +173,15 @@ namespace Player
 
         private void EndGame()
         {
-            GameObject.Find("ScoreCanvas").GetComponent<Canvas>().enabled = true;
+            if (Global.Difficulty != "Custom")
+            {
+                GameObject.Find("ScoreCanvas").GetComponent<Canvas>().enabled = true;
+            }
+            else
+            {
+                ScoreButtonHandler.BackToMainMenu();
+            }
+            
             Destroy(gameObject);
         }
     }

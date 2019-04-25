@@ -96,9 +96,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 37904d69f8313416d92e684424732179, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  menuSpawner: 0
   speed: 2
+  oxygenFactor: 0
   maxOxygen: 10
   oxygenBar: {fileID: 0}
+  plusTen: {fileID: 8748675846193944643, guid: 248063b999d8059a58a3eca1ce46d24c, type: 3}
+  minusFive: {fileID: 8748675846193944643, guid: 27b99022e3eff6a25827bfb8aa0a133e,
+    type: 3}
   player: {fileID: 21300000, guid: 71d38066a54a50a29829e65f992b4763, type: 3}
   playerSwimming: {fileID: 21300000, guid: 5c1d3b11dd083961c94aee7928c2d940, type: 3}
 --- !u!50 &3873545440140831396
@@ -173,7 +178,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 56f833fc5c268a2d1a2535ec3b8cb70d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  menuSpawner: 0
   fishes:
   - {fileID: 3685160886668316050, guid: 8c7e5fc60bf70ecdfa64d88c0f67b537, type: 3}
   - {fileID: 4736158038954000182, guid: 81699d526d9b5c7f3b13a0e86ccc235d, type: 3}
   - {fileID: 3399675668111097133, guid: 0957b2a6a5b55dedf9b3e86a794e13b9, type: 3}
+  probability: 0

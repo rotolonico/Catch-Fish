@@ -22,6 +22,7 @@ namespace Utilities
         public Canvas scoreCanvas;
         public Canvas fallbackCanvas;
         public Canvas gameCanvas;
+        public Canvas customCanvas;
         public Button back;
         public Text difficultyText;
         
@@ -37,6 +38,7 @@ namespace Utilities
         
         public void Play(string difficulty)
         {
+            Global.InGame = true;
             Global.Difficulty = difficulty;
             SceneManager.LoadScene(1);
         }
@@ -103,6 +105,19 @@ namespace Utilities
             fallbackCanvas.enabled = false;
             gameCanvas.enabled = false;
         }
+
+        public void BackFromCustom()
+        {
+            gameCanvas.enabled = true;
+            customCanvas.enabled = false;
+        }
+
+        public void CustomGame()
+        {
+            gameCanvas.enabled = false;
+            customCanvas.enabled = true;
+        }
+        
 
         public void Quit()
         {

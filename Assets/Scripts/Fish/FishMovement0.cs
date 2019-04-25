@@ -25,10 +25,15 @@ namespace Fish
                 case "Hard":
                     speed = 4;
                     break;
+                case "Progressive":
+                    speed = Global.Speed;
+                    break;
                 default:
-                    speed = Global.speed;
+                    speed = Global.CustomFishSpeed;
                     break;
             }
+            
+            if (!Global.InGame) speed = 2;
             
             sr = GetComponent<SpriteRenderer>();
             rb = GetComponent<Rigidbody2D>();
@@ -37,7 +42,6 @@ namespace Fish
         
         private IEnumerator ChangeDirection()
         {
-            if (!Global.InGame) yield break;
             direction = Global.rnd.Next(0, 2);
             sr.flipX = direction == 1;
             yield return new WaitForSeconds((float)Global.rnd.NextDouble() * 2);
@@ -50,7 +54,7 @@ namespace Fish
             var position = transform.position;
             rb.MovePosition(direction == 0 ? position + Vector3.left * Time.deltaTime * speed : position + Vector3.right * Time.deltaTime * speed);
             
-            if (Global.Difficulty == "Progressive") speed = Global.speed;
+            if (Global.Difficulty == "Progressive") speed = Global.Speed;
         }
     }
 }
